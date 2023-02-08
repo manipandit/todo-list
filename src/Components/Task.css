@@ -1,0 +1,24 @@
+.taskC{
+    margin-top: 11px;
+}
+.task{
+    display: flex;
+    justify-content: center;
+}
+
+.task h1{
+    font-size: 25px;
+    color: rgba(36, 32, 32, 0.733);
+}
+.task button{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgba(240, 248, 255, 0.644);
+}
+
+.task button:hover{
+    background-color: aliceblue;
+
+}

@@ -1,0 +1,48 @@
+
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+overflow: hidden;
+
+}
+
+h1{
+  color: #2b2727d5;
+}
+.at{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.addTask{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.addTask input
+{
+  width: 350px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+.addTask button{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px solid black;
+
+}
+
+
+
